@@ -2,11 +2,101 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Acme|Bree+Serif|Josefin+Sans|Signika" rel="stylesheet">
+    <title>Tisa's Portfolio</title>
 </head>
 <body>
-    <H1>This is me!!</H1>
+    <div class="container-fluid" id="home">
+        <nav class="navbar navbar-expand-sm navbar-light bg-light fixed-top">
+            <a class="navbar-brand" href="#home">My Portfolio</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item active">
+                  <a class="nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#projects">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact Me</a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+          <div class="d-flex flex-column align-content-between">
+              <div class="mr-auto p-2">
+            <p class="intro">
+                Hey! I'm Tisa Majumder. <br>
+                I am on the path to become a full stack developer. </br>
+            </p>
+                </div>
+            </p>
+            </p>
+          </div>
+    </div>
+        <div class="container-fluid" id="projects">
+            <h4 class="text-center intro">My Projects</h4>
+                    <div class="row">
+                      <div class="col-sm-6">
+                        <h5 class="topics">Simple Inventory Management System</h5>
+                        <img src="Java1.JPG" alt="Screenshot of project" class="img-fluid img-thumbnail img-responsive" id="projectScreenshot">
+                        <p class="desc">A simple inventory system in Java.<br>
+                        Check out the source code on my <a href="https://github.com/type404/JAVA-Assignment-1" class="link"> github page.</a></p>
+                      </div>
+                      <div class="col-sm-6">
+                            <h5 class="topics">Simple Battleship Game</h5>
+                            <img src="Java2.JPG" alt="Screenshot of project" class="img-fluid img-thumbnail img-responsive" id="projectScreenshot">
+                            <p class="desc">A simple battleship game in Java.<br>
+                            Check out the source code on my <a href="https://github.com/type404/Java-Assignment-2-" class="link"> github page.</a></p>
+                        </div>
+                      <div class="col-sm-6">
+                            <h5 class="topics">Survey Form</h5>
+                            <img src="Survey.JPG" alt="Screenshot of project" class="img-fluid img-thumbnail img-responsive" id="projectScreenshot">
+                            <p class="desc">A static survey form using HTML5 and CSS3.<br>
+                            Check out the source code on my <a href="https://github.com/type404/FCC_Responsive-web-design/tree/master/Survey%20Form" class="link"> github page.</a></p>
+                      </div>
+                      <div class="col-sm-6">
+                            <h5 class="topics">Tribute Page</h5>
+                            <img src="Tribute.JPG" alt="Screenshot of project" class="img-fluid img-responsive img-thumbnail" id="projectScreenshot">
+                            <p class="desc">A static tribute page using HTML5 and CSS3.<br>
+                            Check out the source code on my <a href="https://github.com/type404/FCC_Responsive-web-design/tree/master/Tribute_Page" class="link"> github page.</a></p>
+                      </div>
+                    </div>
+        </div>
+        <div class="container-fluid" id="contact">
+                <h4 class="text-center intro">My Socials</h4>
+                <div class="row">
+                        <div class="col-3 col-md-3">
+                            <a href="https://github.com/type404">
+                                <img src="Social Media/iconfinder_github2_252065.svg" alt="Github logo" class="img-fluid rounded social">
+                            </a>
+                        </div>
+                        <div class="col-3 col-md-3">
+                                <a href="www.linkedin.com/in/tisa-majumder">
+                                    <img src="Social Media/iconfinder_social_media_applications_14-linkedin_4102586.svg" alt="Linkedin logo" class="social img-fluid rounded">
+                                </a>
+                          </div>
+                        <div class="col-3 col-md-3">
+                                <a href="https://twitter.com/type404_">
+                                    <img src="Social Media/iconfinder_social_media_applications_6-twitter_4102580.svg" alt="Twitter logo" class="social img-fluid rounded">
+                                </a>
+                        </div>
+                        <div class="col-3 col-md-3">
+                                <a href="https://www.instagram.com/type.404/">
+                                    <img src="Social Media/iconfinder_social_media_applications_3-instagram_4102579.svg" alt="instagram logo" class="social img-fluid rounded">
+                                </a>
+                        </div>
+                      </div>
+        </div>
 </body>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
 </html>

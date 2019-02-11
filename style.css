@@ -1,0 +1,65 @@
+body{
+    font-family: 'Josefin Sans', sans-serif;
+}
+#home{
+    background-image: linear-gradient(135deg, #775F88 30%, #442C55 90%);
+    padding: 0.5em;
+    height: 100vh;
+    min-height: 300px;
+    background-size: cover;
+
+}
+.navbar-brand{
+    font-weight: 700;
+    font-family: 'Acme', sans-serif;
+    display: inline-block;
+    white-space: nowrap;
+    letter-spacing: 2px;
+}
+.nav-link{
+    font-weight: 500;
+}
+.d-flex {
+    position: absolute;
+    margin: auto;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: auto;
+    height: 100px;
+}
+.intro {
+    padding: 0.5em;
+    color: aliceblue;
+    font-style: normal;
+    font-size: 30px;
+    font-family: 'Bree Serif', serif;
+}
+#projectScreenshot {
+    height: 200px;
+    width: 200px;
+}
+#projects {
+    background-image: linear-gradient(135deg,rgb(24, 15, 58) 30%, #0E0A11 90%);
+}
+.topics{
+    color: white;
+    font-family: 'Signika', sans-serif;
+}
+.desc {
+    color: whitesmoke;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.link {
+    color: palevioletred;
+}
+.social {
+    height: 50px;
+    width: 50px;
+    padding: 2px;
+}
+#contact {
+    background-image: linear-gradient(135deg,rgb(15, 2, 24) 30%, rgb(22, 21, 22) 90%);
+    padding-bottom: 2em;
+}
